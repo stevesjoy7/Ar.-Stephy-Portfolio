@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stephy S Joy | Architect & Interior Designer</title>
+  <meta name="description" content="Portfolio of Stephy S Joy, architect and interior designer specialising in retail and commercial fit-outs, working drawings, 3D renders, and MEP coordination in Kuwait.">
+  
+  <!-- Preconnect & Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Blueprint Line Drawing Intro Overlay -->
+  <div class="intro-screen" id="introScreen">
+    <svg viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <path pathLength="1" d="M80 470H920M80 470V250L300 130L520 250V470M520 250H760V470M300 130V470"/>
+      <path pathLength="1" d="M140 470V330H240V470M340 340H460V420H340Z"/>
+      <path pathLength="1" d="M580 330H700V470M580 400H700"/>
+      <path pathLength="1" d="M40 520H960M40 540H960"/>
+    </svg>
+    <div class="intro-content">
+      <h1 style="font-size:2.8rem;font-weight:800;letter-spacing:-0.02em;margin-bottom:6px">Stephy S Joy</h1>
+      <p class="mono" style="color:var(--accent-gold);margin-bottom:12px">ARCHITECT &middot; INTERIOR DESIGNER</p>
+      <p style="color:var(--text-secondary);font-size:1.1rem">Designing spaces. Shaping experiences.</p>
+      <button class="btn-action" id="enterStudioBtn" style="margin-top:28px">
+        Explore Portfolio &rarr;
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Sticky Header Navigation -->
+  <header class="navbar">
+    <a href="#/" class="nav-brand">
+      <div class="brand-logo">SJ</div>
+      <div>
+        <span>Stephy S Joy</span>
+        <span class="brand-sub">Architect & Interior Designer</span>
+      </div>
+    </a>
+    
+    <nav class="nav-links">
+      <div id="navLinks" style="display:flex;gap:20px;align-items:center"></div>
+      <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle light or dark theme"></button>
+    </nav>
+  </header>
+
+  <!-- Main Content App Viewport -->
+  <main class="main-wrapper" id="app"></main>
+
+  <!-- Footer -->
+  <footer>
+    <div style="max-width:1240px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px">
+      <div>&copy; 2026 Stephy S Joy. All rights reserved.</div>
+      <div class="mono">Architectural & Interior Design Studio &middot; Kuwait</div>
+    </div>
+  </footer>
+
+  <!-- Application Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
